@@ -15,7 +15,9 @@ header{
     background-color:rgb(152, 123, 93)
 } 
 
-
+body{
+    background-color:rgb(203, 197, 197)
+}
 
 #logo{
     width: 40px;
@@ -38,11 +40,6 @@ nav{
 
 
 }
-    
-
-
-
-
 
 
 nav a{
