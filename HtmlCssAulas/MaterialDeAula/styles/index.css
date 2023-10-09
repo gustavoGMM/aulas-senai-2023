@@ -1,0 +1,64 @@
+/*margem inrterna */
+*{
+   /* margem externa */
+    margin: 0;
+/* margem interna */
+    padding: 0;
+}
+
+P{
+    color: rgb(187, 14, 14);
+}
+
+#pagina{
+    width: 1200;
+    margin: 0px auto;
+
+}
+
+#cabecalho{
+    width: 1200px;
+    height: 60px;
+    background-color: red;
+    /* top - Topo */
+    /* left - esquerda */
+    /* right - direita */
+    /* bottom - baixo  */
+    /* margin 2 valores = eixo  y e eixo x */ 
+    /* margin 4 valores = eixo topo, direita, em baixo e esquerda */
+
+   /* margin-top: 100px; */
+   /* margin-left: 20px; */
+   /* margin-right: 20px; */
+   /* margin-bottom: 20px; */
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+   text-align: center;
+   line-height: 60px;
+ }
+
+#links{
+        width: 1200px;
+        height: 40px;
+        background-color: rgb(25, 25, 223);
+
+}
+    
+#banner{
+        width: 80%;
+        height: 300px;
+        /* chma a imagem para background */
+        background-image: url(/HtmlCssAulas/MaterialDeAula/images/patu.webp) ;
+        /* tamanho do background */
+        background-size: cover;
+        /* posiçao da imagem */
+        background-position: center;
+        /* quantas vezes o background será repetido! */
+        background-repeat: no-repeat ;
+        margin: 10px auto;
+        border-radius: 20px;
+   }
+
+
+
+
