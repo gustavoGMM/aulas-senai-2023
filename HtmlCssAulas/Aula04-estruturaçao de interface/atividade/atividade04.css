@@ -5,7 +5,7 @@
  
  #pagina{
     width: 100%;
-    height: auto;
+    height: 80%;
  }
 
  header segundabarra{
@@ -53,7 +53,7 @@ nav a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     color: red;
-    margin: 50px;
+    margin: 20px;
     padding: 50px;
    
 

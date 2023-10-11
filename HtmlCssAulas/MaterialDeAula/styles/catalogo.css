@@ -1,0 +1,32 @@
+main{
+    width: 80% ;
+    margin: 20px auto;
+    background-color: rgb(211, 226, 226);
+    box-shadow: gray 5px 5px;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+#secaoProdutos{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    /* posicionamento padrao: esquerda, topo e em coluna */
+    display: flex ;/*, muda para linha */
+    /*row - linha */
+    /* row-reverse - inverte */
+    /*column - coluna */
+    flex-direction: row;/* muda a direçao do flexbox */
+    justify-content: space-between;/* muda a orientaçao horizontal do flexbox */
+    align-items: start;/* muda a orientaçao vertical do flexbox */
+    flex-wrap: wrap;
+}
+
+.produto{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(204, 103, 35);
+    margin: 10px;
+     
+}
