@@ -3,8 +3,8 @@
 body {
     width: 80%;
     margin: 20px auto;
-    color: rgb(3, 3, 3);
-    background-color: rgb(143, 143, 143);
+    color: #000000;
+    background-color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,15 +31,34 @@ img{
 
 
 h2{
-    color: rgb(240, 240, 243);
-    background-color: black;
+    color: #ffffff(240, 240, 243);
+    background-color: #000000;
     width: 50%;
+}
+
+h1{
+    color:#ffffff(243, 243, 243);
+    background-color: #000000;
+    width: 50%;
+}
+
+h6{
+    color:#ffffff;
+
 }
 
 footer{
     width: 100%;
     color: rgb(253, 249, 249);
-    background-color: rgb(15, 14, 14);
+    background-color: #000000;
 
 
+}
+
+.map{
+    color: #000000;
+    background-color:#e0d5d5;
+
+
+    
 }
