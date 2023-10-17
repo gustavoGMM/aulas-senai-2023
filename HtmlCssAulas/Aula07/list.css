@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+ul{
+    background-color: black;
+   
+}
+
+li{
+    padding: 10;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
