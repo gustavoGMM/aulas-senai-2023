@@ -3,91 +3,83 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 12px;
-}
 
+}
+/* criando variaveis para colocar as cores dos sites */
 :root{
-    --cinza:#e8e6e6;
-    --branco:#ffffff;
-    --preto:#000000;
+--cinza:#e8e6e6;
+--branco:#ffffff;
+--preto:#000000;
 }
-
-h1,h2 {
+h1,h2{
     font-size: 16px;
     padding: 3px;
 }
-
 p{
-    padding: 5px 0;
+    padding: 5px 0px;
 }
-
 body{
     width: 100vw;
-    /*height: 100vh;*/
+    height: 100vh;
     background-color: var(--branco);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 header{
-    width: 60%;
+    width: 50%;
     background-color: var(--cinza);
 
 }
-
 nav{
     display: flex;
     justify-content: right;
-}
 
-nav > a {
+}
+/* esse simbolo da seta antes do "a" significa que ele é filho direto de nav
+qualquer outro "a" dentro de uma div, dentro de nav, nao recebera esse formatação*/
+nav > a{
     margin-left: 8px;
     text-decoration: none;
     color: var(--preto);
     font-weight: 700;
     padding: 3px;
+    
 }
-
 .header-image{
     display: flex;
-
 }
-
 .image{
+    /* esse comando é o tamanho maximo - não cresce mais que o tamanho do pai */
     max-width: 100%;
 }
-
 main{
-    display: flex;
+display: flex;
+/* acompanha a largura do header */
+width: 50%;
 }
-
+/* esse container estao dentro da section */
 .container{
     background-color: var(--cinza);
 }
-
-.container > h1{
+.container >h1{
     background-color: var(--preto);
     color: var(--branco);
 }
-
 article{
     padding: 5px;
 }
-
 footer{
-    background-color: var(--preto) ;
+    background-color: var(--preto);
     color: var(--branco);
-    width: 60%;
+    width: 50%;
     padding: 5px;
 }
-
-aside {
+aside{
     background-color: var(--branco);
-    margin-right: 20px;
+    margin-left: 20px;
 }
-
-#side-bar {
+#side-bar{
     display: flex;
     flex-direction: column;
-
 }

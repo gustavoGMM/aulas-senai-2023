@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   /* border-radius: 5px; apagar o table*/
+}
+
+td:nth-child(even), th:nth-child(even){
+    background-color: #4ef74e;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #15d415;
+}
+
+table{
+    
+}
+
+.rodape{
+    border: none;
+}
+
+td:nth-child(even):hover {
+    background-color: red;
+}
