@@ -1,16 +1,20 @@
+
+
 main{
     width: 80%;
     margin: 20px auto;
-    background-color: rgb(128, 89, 38);
-    box-shadow: rgb(82, 70, 70) 5px 5px;
+    background-color: rgb(165, 102, 29);
+    box-shadow: rgb(221, 202, 177) 5px 5px;
     border-radius: 5px;
     padding: 20px;
 }
 
 #secaoProdutos{
     width: 100%;
-    background-color: rgb(126, 69, 35);
-     display: flex ;
+    background-color: rgb(97, 80, 67);
+    
+    display: flex ;
+   
     flex-direction: row;
     justify-content: center;
     align-items: start;
@@ -22,7 +26,7 @@ main{
     width: 200px;
     height: 300px;
     margin: 10px;
-    background-color: rgb(59, 50, 40);
+    background-color: rgb(204, 172, 157);
     padding: 10px; 
     border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -48,17 +52,23 @@ main{
 h4{
     font-size: 16pt;
     margin: 10px 0px;
-    color: rgb(231, 201, 154);
+    color: rgb(43, 34, 39);
     text-align: center;
 }
 
 .textoDescricao{
     margin: 10px;
-    color: rgb(8, 8, 7);
+    color: rgb(62, 62, 62);
 }
 
 .preco{
     font-weight: bold;
     font-size: 14pt;
     color: rgb(0, 104, 0);
+}
+
+footer{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
