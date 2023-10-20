@@ -1,0 +1,17 @@
+*{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #07f2de;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 0, 119);
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(219, 215, 219);
+    text-shadow: 5px 5px 5px rgb(8, 97, 230);
+    
+}

@@ -1,16 +1,17 @@
 *{
     width: 80%;
     margin: 20px auto;
-    background-color: rgb(5, 5, 3);
+    background-color: #F2B807;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    color: rgb(21, 255, 0);
     
 }
 
 h1{
     text-align: center;
-    color: rgb(148, 25, 172);
+    color: rgb(219, 215, 219);
     text-shadow: 5px 5px 5px rgb(8, 97, 230);
     
 }
