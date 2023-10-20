@@ -1,17 +1,28 @@
 *{
     width: 80%;
-    margin: 20px auto;
-    background-color: #f20726;
+    margin: 19px auto;
+    background-color: #0a350a;
     border-radius: 5px;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    color: rgb(21, 255, 0);
+    color: #000000;
     
 }
 
 h1{
     text-align: center;
-    color: rgb(219, 215, 219);
-    text-shadow: 5px 5px 5px rgb(8, 97, 230);
+    color: rgb(17, 19, 10);
+    text-shadow: 5px 5px 5px rgb(197, 230, 8);
     
 }
+
+
+
+    nav{
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgb(197, 230, 8);
+    
+    
+    }
