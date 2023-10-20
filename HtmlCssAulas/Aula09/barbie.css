@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'barbie';
+     src: url(/HtmlCssAulas/MaterialDeAula/fonts/Barbiel.ttf);
+}
+
 *{
     width: 80%;
     margin: 19px auto;
@@ -11,8 +16,10 @@
 
 h1{
     text-align: center;
-    color: rgb(163, 71, 156);
+    color: rgb(0, 0, 0);
     text-shadow: 5px 5px 5px rgb(8, 8, 6);
+    font-family: barbie;
+    letter-spacing: 10px;
     
 }
 
