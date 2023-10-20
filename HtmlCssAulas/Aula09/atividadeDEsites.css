@@ -1,0 +1,13 @@
+*{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(105, 39, 39);
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(24, 50, 88);
+}
