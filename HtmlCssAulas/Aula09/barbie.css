@@ -11,8 +11,8 @@
 
 h1{
     text-align: center;
-    color: rgb(17, 19, 10);
-    text-shadow: 5px 5px 5px rgb(197, 230, 8);
+    color: rgb(163, 71, 156);
+    text-shadow: 5px 5px 5px rgb(8, 8, 6);
     
 }
 
@@ -22,7 +22,13 @@ h1{
         width: auto;
         height: 100px;
         text-align: center;
-        background-color: rgb(197, 230, 8);
+        background-color: rgb(18, 19, 14);
     
     
     }
+
+img{
+    height: 400px;
+    width: 600px;
+   
+}
