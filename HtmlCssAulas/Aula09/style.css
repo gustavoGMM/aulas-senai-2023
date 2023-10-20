@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap');
+
+h1{
+    font-family:'Ruwudu', serif;
+    letter-spacing: 10px;
+   /*  text-decoration: line-through;
+       text-decoration-color: aqua;
+       text-decoration-style: wavy; */
+       text-shadow: 5px 5px 5px rgb(206, 204, 88);
+}
+
+P{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    word-spacing: 5px;
+    text-indent: 25px;
+    font-style: italic;
+}
+
+li{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
+
+/* x :horizontal
+y :vertical */
