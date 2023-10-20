@@ -3,16 +3,7 @@
      src: url(/HtmlCssAulas/MaterialDeAula/fonts/Barbiel.ttf);
 }
 
-*{
-    width: 80%;
-    margin: 19px auto;
-    background-color: #d11bc2;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-    color: #000000;
-    
-}
+
 
 h1{
     text-align: center;
@@ -20,22 +11,39 @@ h1{
     text-shadow: 5px 5px 5px rgb(8, 8, 6);
     font-family: barbie;
     letter-spacing: 10px;
+    font-size: 140px;
+    text-shadow: 5px 5px 5px rgb(194, 79, 218);
     
 }
 
 
 
-    nav{
+    .conteudo  .pagina nav {
         width: auto;
-        height: 100px;
+        height: 200px;
+        padding: 0;
+        margin: 0;
         text-align: center;
-        background-color: rgb(18, 19, 14);
-    
+        font-size: 40px;
     
     }
 
-img{
-    height: 400px;
-    width: 600px;
+.conteudo .pagina img{
+    height: 700px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    align-self: flex-end;
+    display: flex;
+  justify-content: center;
+  align-items: center;
    
+}
+
+*{
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+    background-image:
+    linear-gradient(-0.25turn,#ac4bbf 50%, #555555 50%);
 }
