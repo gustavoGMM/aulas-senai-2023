@@ -13,6 +13,7 @@ h1{
     text-align: center;
     color: rgb(17, 19, 10);
     text-shadow: 5px 5px 5px #9D0D16;
+    font-size: 100px;
     
 }
 
@@ -23,6 +24,7 @@ h1{
         height: 100px;
         text-align: center;
         background-color:#9D0D16;
+        font-size: 22px;
     
     
     }
