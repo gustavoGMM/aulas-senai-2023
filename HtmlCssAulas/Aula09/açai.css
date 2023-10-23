@@ -4,20 +4,22 @@
 }
 
 *{
-    width: 80%;
+    width: 83%;
     margin: 19px auto;
-    background-color: #6c0286;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
     color: #000000;
+   
+   
+
     
 }
 
 h1{
     text-align: center;
-    color: rgb(17, 19, 10);
-    text-shadow: 5px 5px 5px rgb(197, 230, 8);
+    color: rgb(80, 20, 136);
+    text-shadow: 5px 5px 5px rgb(234, 240, 233);
     font-family: acai;
     letter-spacing: 15px;
     font-size: 100px;

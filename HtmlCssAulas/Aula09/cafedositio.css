@@ -1,7 +1,6 @@
 *{
     width: 80%;
     margin: 19px auto;
-    background-color: #0a350a;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
@@ -12,7 +11,7 @@
 h1{
     text-align: center;
     color: rgb(17, 19, 10);
-    text-shadow: 5px 5px 5px #9D0D16;
+    text-shadow: 5px 5px 5px #09420c;
     font-size: 100px;
     
 }
@@ -23,7 +22,7 @@ h1{
         width: auto;
         height: 100px;
         text-align: center;
-        background-color:#9D0D16;
+        background-color:#0e310f;
         font-size: 22px;
     
     
