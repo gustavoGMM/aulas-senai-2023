@@ -11,8 +11,8 @@
 h1{
     text-align: center;
     color: rgb(17, 19, 10);
-    text-shadow: 5px 5px 5px #09420c;
-    font-size: 100px;
+    text-shadow: 5px 5px 5px #dadd11;
+    font-size: 80px;
     
 }
 
@@ -22,7 +22,7 @@ h1{
         width: auto;
         height: 100px;
         text-align: center;
-        background-color:#0e310f;
+        background-color:#cfbc12;
         font-size: 22px;
     
     
