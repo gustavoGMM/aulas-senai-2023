@@ -1,29 +1,13 @@
 *{
-    width: 80%;
-    margin: 19px auto;
-
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-    color: #050404;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    text-align: center;
-    color: red;
-    text-shadow: 5px 5px 5px rgb(17, 19, 7);
-    font-size: 120px;
-    
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-image:
+    linear-gradient(45deg,black,transparent);
 }
-
-
-
-    nav{
-        width: auto;
-        height: 100px;
-        text-align: center;
-        background-color: rgb(243, 36, 0);
-    
-    
-    }
