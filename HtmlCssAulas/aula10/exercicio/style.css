@@ -39,13 +39,13 @@ form > div {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 div > input{
     height: 35px;
     border: 2px solid #080707;
-    width: 300px;
+    width: 250px;
     font-size: 20px;
     padding-left: 100px;
    
@@ -79,6 +79,6 @@ form > input {
  }
 
  h1{
-    background-color: black;
+    background-color: rgb(53, 43, 32);
     color: rgb(242, 170, 62);
  }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+      <form autocomplete="on">
+          <fieldset>
+              <legend>Dados pessoais</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input 
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    placeholder="digite seu nome completo"
+                    autocomplete="cc-name"
+                  >
+            </div>
+            <div>
+                  <label for="email">Email</label>
+                <input 
+                   type="email"
+                   name="email"
+                   id="email"
+                   placeholder="exemplo@exemplo.com"
+                   autocomplete="email"
+                  >
+
+                </div>
+                <div>
+                      <label for="telefone">Telefone</label>
+                    <input 
+                       type="tel"
+                       name="telefone"
+                       id="telefone"
+                       placeholder="(xx)xxxx-xxxx"
+                       autocomplete="tel"
+                      >
+                </div>
+                <div>
+                    <label for="rg">RG</label>
+                    <input 
+                     type="number"
+                     name="rg"
+                     id="rg"
+                     placeholder="digite seu rg"
+                     autocomplete="cc-number"
+                     
+                    >
+                    <div>
+                    <div>
+                        <label for="dt_nacismento">Data de nacismento</label>
+                        <input 
+                         type="text"
+                         name="dt_nacismento"
+                         id="dt_nacismento"
+                         placeholder="dd/mm/yyyy"
+                         autocomplete="address-level1"
+                         
+                        >
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+      </form>
+</body>
+</html>
