@@ -1,18 +1,23 @@
-
+*{
+    background-color: rgb(185, 182, 154);
+}
 form  div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 16px;   
+    margin-bottom: 16px;  
+    
 }
 
 h4{
     text-align: center;
-    background-color: black;
+    background-color: rgb(3, 2, 2);
     color: white;
     border-radius: 20px;
+   
 }
 
 fieldset{
     margin-top: auto;
     margin: 80px;
+
 }
