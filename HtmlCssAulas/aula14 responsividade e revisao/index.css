@@ -3,12 +3,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
+
   @font-face {
       font-family: 'Halloween Spooky';
-      src: url(../);
+      src: url(/HtmlCssAulas/aula14\ responsividade\ e\ revisao/font/banner.png);
 }
 
-#backgroundImg{
+.backgroundImg{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,6 +19,10 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Halloween Spooky';
     color: var(--titulos);
+}
+
+h1{
+    font-size: 35pt;
 }
 
 *{
@@ -73,6 +78,16 @@ nav ul{
     width: 200px;
 }
 
+#menuIcon{
+    cursor: pointer;
+    display: none;
+}
+
+#menuMobile{
+    display: none;
+}
+
+
 /*main*/
 main{
     width: 100%;
@@ -82,6 +97,7 @@ main{
 
 }
 
+
 #banner{
     width: 90%;
     height: 400px;
@@ -89,3 +105,21 @@ main{
     background-image: url(/HtmlCssAulas/aula14\ responsividade\ e\ revisao/);
 
 }
+
+#sobreSection{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+/*media*/
+@media screen  and (max-width : 768px){
+    #banner{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+

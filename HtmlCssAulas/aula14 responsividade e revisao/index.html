@@ -7,14 +7,16 @@
     <title>RESPONSIVIDADE</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="/HtmlCssAulas/aula14 responsividade e revisao/images/mulherdancando.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/HtmlCssAulas/aula14 responsividade e revisao/@Media.css" media="screeen and (max-width : 768px)">
 </head>
 <body>
     <div id="page">
+        <!-- header -->
         <header>
             <div id="logo">
                 <img class="image" src="/HtmlCssAulas/aula14 responsividade e revisao/images/banner.png" alt="">
             </div>
-            <nav>
+            <nav id="menuMobile">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">sobre Halloween</a></li>
@@ -22,11 +24,19 @@
                     <li><a href="#">Época</a></li>
                 </ul>
             </nav>
+            <!-- mobile -->
+            <div id ="menuIcon" onclick="dropdown()">
+                <img class="imagem" src="/HtmlCssAulas/aula14 responsividade e revisao/images/menuIcon.svg" alt="">
+            </div>
         </header>
         <!-- main -->
         <main>
             <section id="banner" class="backgroundImg"></section>
-            <section id="sobreSection"></section>
+            <section id="sobreSection">
+                <h1>Hallowen 2023</h1>
+                <img class="imagem" src="/HtmlCssAulas/aula14 responsividade e revisao/images/mulherdancando.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, commodi impedit officia modi expedita totam porro quas molestias illum accusantium. Quam in eveniet iure aliquam velit itaque at, aspernatur sit.</p>
+            </section>
             <section id="curiosidadeSecton"></section>
             <section id="epocaSection"></section>
         </main>
@@ -35,5 +45,17 @@
              <h3>Todos os direitos reservados a @Halloween 2023</h3>
         </footer>
     </div>
+
+
+<script>
+    function dropdown() {
+        if(menuMobile.style.display == "flex"){
+            menuMobile.style.display ="none"
+        }else{
+            menuMobile.style.display= flex
+        }
+    }
+</script>
+
 </body>
 </html>
