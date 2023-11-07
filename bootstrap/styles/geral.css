@@ -1,3 +1,11 @@
+/*important prioriza o elemento em si*/
+/*versoes antigas prioridade é de quem é declarado em baixo, ou por último*/
+
 #page{
     background-color: blueviolet!important;
+}
+
+.carousel-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+    background-color: rgb(54, 54, 53);
 }
