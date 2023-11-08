@@ -6,3 +6,7 @@
     --preto: #000000;
     --branco: #FFFFFF;
 }
+
+header,footer{
+    background-color: var(--azul);
+}
