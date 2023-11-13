@@ -1,4 +1,4 @@
-#colors{
+:root{
     background-color: #302727;
     background-color: #ba2d2d;
     background-color: #f2511b;
@@ -6,6 +6,8 @@
     background-color: #c7c730;
 }
 
-header{
+header,footer{
     background-color: var(#ba2d2d);
 }
+
+

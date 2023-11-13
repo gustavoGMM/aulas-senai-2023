@@ -22,3 +22,12 @@ header,footer{
 .card button:hover{
     background-color: #bb2e6b;
 }
+
+input{
+    border: 1px solid black!important;
+}
+
+aside{
+    width: 50%;
+   
+}
